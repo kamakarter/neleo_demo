@@ -296,10 +296,9 @@ header .container {
     color: #162330;
 }
 
-
 .btn_header.btn_header_scrolled:hover {
-    background: transparent;
-    color: #1885FF;
+    background: #1885FF;
+    color: #fff;
     transition: 300ms;
     cursor: pointer;
 }
@@ -318,6 +317,7 @@ header .container {
     background-position: center center;
     background-color: #ffffff;
     background-image: url('../media/backgrounds/first_screen_bg.png'); 
+    /* overflow: hidden; */
 }
 
 .first_screen .box_for_content {
@@ -352,7 +352,7 @@ header .container {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 8px;
-    max-width: 900px;
+    /* max-width: 1170px; */
 }
 
 .first_screen .big_btn {
@@ -360,6 +360,7 @@ header .container {
 }
 
 .abstact_figure_1 {
+    /* display: none; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -961,6 +962,8 @@ footer .btn:not(:hover) {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
+
 
 .policy_link:hover::after {
     transform: scaleX(1);
