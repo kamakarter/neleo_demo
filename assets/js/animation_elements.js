@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const boxes = document.querySelectorAll('.animate');
 
     function checkVisibility() {
-        const triggerBottom = window.innerHeight / 5 * 4; 
+        const triggerBottom = window.innerHeight / 5 * 4  ; 
 
         boxes.forEach(box => {
             const boxTop = box.getBoundingClientRect().top;
