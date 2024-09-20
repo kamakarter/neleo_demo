@@ -177,8 +177,8 @@
     }
 
     .header_scrolled {
-        /* background: #ffffff; */
-        /* box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; */
+        background: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
         /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0.00) 100%); */
     }
 
